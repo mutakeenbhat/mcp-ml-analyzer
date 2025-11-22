@@ -1,0 +1,47 @@
+text,label
+"def my_tool_action(): pass","is_tool"
+"class FileTool: pass","is_tool"
+"async function runTool(){}","is_tool"
+"print('hello')","not_tool"
+"const x = 5;","not_tool"
+"function greet(){ console.log('hi') }","not_tool"
+"class CalculatorTool: pass",is_tool
+"def run_tool(context): return context",is_tool
+"tool = MCPTool(name='weather')",is_tool
+"class SearchTool(BaseTool):",is_tool
+"self.tools.append(new_tool)",is_tool
+"@tool()",is_tool
+"tool.execute()",is_tool
+"class EmbedderTool:",is_tool
+"tool_schema = {'name':'sum','input':{}}",is_tool
+"def register_tool(app, tool):",is_tool
+"tools = {'sum': SumTool()}",is_tool
+"def tool_main(params):",is_tool
+"ToolResponse(success=True)",is_tool
+"send_tool_output(result)",is_tool
+"def tool_handler(payload):",is_tool
+"return ToolResult(output=data)",is_tool
+"tool_config = load_tool_config()",is_tool
+"execute_tool_chain()",is_tool
+"class FileReadTool:",is_tool
+"def create_mcp_tool():",is_tool
+"def add(a,b): return a+b",not_tool
+"print('Hello World')",not_tool
+"class User:",not_tool
+"fetch('/api/data')",not_tool
+"import os",not_tool
+"def login(request):",not_tool
+"x = read_file('test.txt')",not_tool
+"for i in range(10): print(i)",not_tool
+"const server = http.createServer()",not_tool
+"def handle_request(req):",not_tool
+"fs.readFile('app.js')",not_tool
+"axios.post('/login')",not_tool
+"router.get('/home')",not_tool
+"console.log('test')",not_tool
+"class Database:",not_tool
+"await db.connect()",not_tool
+"function sum(a,b){return a+b}",not_tool
+"res.write('done')",not_tool
+"json.loads(data)",not_tool
+"const x = 10",not_tool

@@ -1,0 +1,32 @@
+text,label
+"app.get('/hello', (req,res)=>{})","http"
+"fetch('http://api.com')","http"
+"sys.stdin.readline()","stdio"
+"input()","stdio"
+"websocket.connect('ws://example')","websocket"
+"new WebSocket('ws://chat')","websocket"
+"response.write('data: something')","sse"
+"res.write('data: hello')","sse"
+"sys.stdin.read()",stdio
+"sys.stdout.write('ok')",stdio
+"input('Enter command')",stdio
+"process.stdin.on('data')",stdio
+"reader = sys.stdin",stdio
+
+"app.get('/status')",http
+"from flask import request",http
+"axios.post('/login')",http
+"fetch('http://localhost:3000/api')",http
+"router.post('/create')",http
+
+"const ws = new WebSocket('ws://localhost:8080')",websocket
+"ws.onmessage = (msg) => {}",websocket
+"socket.send(JSON.stringify(data))",websocket
+"WebSocketServer({ port: 8080 })",websocket
+"socket.on('connection')",websocket
+
+"res.write('data: {\"tick\":1}\\n\\n')",sse
+"EventSource('/events')",sse
+"while True: yield f'data: {value}\\n\\n'",sse
+"response.headers['Content-Type']='text/event-stream'",sse
+"stream.write('data: update\\n\\n')",sse

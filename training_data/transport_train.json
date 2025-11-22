@@ -1,0 +1,10 @@
+[
+  {"text": "app.get('/hello', (req,res)=>{})", "label": "http"},
+  {"text": "fetch('http://api.com')", "label": "http"},
+  {"text": "sys.stdin.readline()", "label": "stdio"},
+  {"text": "input()", "label": "stdio"},
+  {"text": "websocket.connect('ws://example')", "label": "websocket"},
+  {"text": "new WebSocket('ws://chat')", "label": "websocket"},
+  {"text": "response.write('data: something')", "label": "sse"},
+  {"text": "res.write('data: hello')", "label": "sse"}
+]

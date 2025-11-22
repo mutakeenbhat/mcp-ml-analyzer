@@ -1,0 +1,8 @@
+[
+  {"text": "def my_tool_action(): pass", "label": "is_tool"},
+  {"text": "class FileTool: pass", "label": "is_tool"},
+  {"text": "async function runTool(){}", "label": "is_tool"},
+  {"text": "print('hello')", "label": "not_tool"},
+  {"text": "const x = 5;", "label": "not_tool"},
+  {"text": "function greet(){ console.log('hi') }", "label": "not_tool"}
+]

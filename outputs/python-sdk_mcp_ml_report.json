@@ -1,0 +1,1772 @@
+{
+    "repository": "python-sdk",
+    "file_count": 265,
+    "transport": {
+        "type": "sse",
+        "confidence": 0.85,
+        "evidence": [
+            "ML classifier predicted: http",
+            "Rule match: 'sys.stdin' \u2192 stdio",
+            "Rule match: 'sys.stdout' \u2192 stdio",
+            "Rule match: 'input(' \u2192 stdio",
+            "Rule match: 'process.stdin' \u2192 stdio",
+            "Rule match: '.get(' \u2192 http",
+            "Rule match: '.post(' \u2192 http",
+            "Rule match: 'fetch(' \u2192 http",
+            "Rule match: 'WebSocket(' \u2192 websocket",
+            "Rule match: 'send(' \u2192 websocket",
+            "Rule match: 'text/event-stream' \u2192 sse",
+            "Rule match: 'EventSource' \u2192 sse"
+        ]
+    },
+    "tools": [
+        {
+            "file": "examples\\clients\\simple-auth-client\\mcp_simple_auth_client\\main.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\clients\\simple-chatbot\\mcp_simple_chatbot\\main.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool",
+                "Rule matched: execute_tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\complex_inputs.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\desktop.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\direct_call_tool_result_return.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\echo.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\icons_demo.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\logging_and_progress.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\memory.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\parameter_descriptions.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\readme-quickstart.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\screenshot.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\simple_echo.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\text_me.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\unicode_example.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\fastmcp\\weather_structured.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\everything-server\\mcp_everything_server\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-auth\\mcp_simple_auth\\auth_server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-auth\\mcp_simple_auth\\legacy_as_server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-auth\\mcp_simple_auth\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-auth\\mcp_simple_auth\\simple_auth_provider.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-auth\\mcp_simple_auth\\token_verifier.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-pagination\\mcp_simple_pagination\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-pagination\\mcp_simple_pagination\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-prompt\\mcp_simple_prompt\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-prompt\\mcp_simple_prompt\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-resource\\mcp_simple_resource\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-resource\\mcp_simple_resource\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-streamablehttp\\mcp_simple_streamablehttp\\event_store.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-streamablehttp\\mcp_simple_streamablehttp\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-streamablehttp\\mcp_simple_streamablehttp\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-streamablehttp-stateless\\mcp_simple_streamablehttp_stateless\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-streamablehttp-stateless\\mcp_simple_streamablehttp_stateless\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-tool\\mcp_simple_tool\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\simple-tool\\mcp_simple_tool\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\structured-output-lowlevel\\mcp_structured_output_lowlevel\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\servers\\structured-output-lowlevel\\mcp_structured_output_lowlevel\\__main__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\clients\\display_utilities.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\clients\\oauth_client.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\clients\\parsing_tool_results.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\clients\\stdio_client.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\clients\\streamable_basic.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\clients\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\basic_prompt.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\basic_resource.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\basic_tool.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\completion.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\direct_call_tool_result.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\direct_execution.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\elicitation.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\fastmcp_quickstart.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\images.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\lifespan_example.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\notifications.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\oauth_server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\sampling.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\streamable_config.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\streamable_http_basic_mounting.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\streamable_http_host_mounting.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\streamable_http_multiple_servers.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\streamable_http_path_config.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\streamable_starlette_mount.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\structured_output.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\tool_progress.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\lowlevel\\basic.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\lowlevel\\direct_call_tool_result.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\lowlevel\\lifespan.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "examples\\snippets\\servers\\lowlevel\\structured_output.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "scripts\\update_readme_snippets.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\types.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\cli\\cli.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\session.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\session_group.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\sse.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\streamable_http.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\__main__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\auth\\exceptions.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\auth\\oauth2.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\auth\\utils.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\auth\\extensions\\client_credentials.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\auth\\extensions\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\client\\stdio\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\os\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\os\\posix\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\os\\win32\\utilities.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\os\\win32\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\elicitation.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\models.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\session.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\sse.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\stdio.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\streamable_http.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\streamable_http_manager.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\transport_security.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\websocket.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\errors.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\json_response.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\provider.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\settings.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\handlers\\authorize.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\handlers\\metadata.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\handlers\\register.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\handlers\\revoke.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\handlers\\token.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\middleware\\auth_context.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\middleware\\bearer_auth.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\middleware\\client_auth.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\auth\\middleware\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\exceptions.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool",
+                "Rule matched: @tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\prompts\\base.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\prompts\\manager.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\resources\\base.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\resources\\resource_manager.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\resources\\templates.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\resources\\types.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\tools\\base.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\tools\\tool_manager.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\tools\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\utilities\\context_injection.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\utilities\\func_metadata.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\utilities\\logging.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\utilities\\types.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\fastmcp\\utilities\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\lowlevel\\helper_types.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\server\\lowlevel\\server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\auth.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\auth_utils.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\context.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\exceptions.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\message.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\metadata_utils.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\progress.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\session.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\_httpx_utils.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "src\\mcp\\shared\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\conftest.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\test_examples.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\test_types.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\cli\\test_utils.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\cli\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\conftest.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_auth.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_config.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_http_unicode.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_list_methods_cursor.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_list_roots_callback.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_logging_callback.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_notification_response.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_output_schema_validation.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_resource_cleanup.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_sampling_callback.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_scope_bug_1630.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_session.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_session_group.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\test_stdio.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\client\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\client\\auth\\extensions\\test_client_credentials.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_100_tool_listing.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_1027_win_unreachable_cleanup.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_129_resource_templates.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_1338_icons_and_metadata.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_141_resource_templates.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_152_resource_mime_type.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_188_concurrency.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_342_base64_encoding.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_355_type_error.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_88_random_error.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\issues\\test_malformed_input.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_cancel_handling.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_lifespan.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_lowlevel_exception_handling.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_lowlevel_input_validation.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_lowlevel_output_validation.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_lowlevel_tool_annotations.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_read_resource.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_session.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_session_race_condition.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_sse_security.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_streamable_http_manager.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\test_streamable_http_security.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\auth\\test_error_handling.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\auth\\test_protected_resource.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\auth\\test_provider.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\auth\\middleware\\test_auth_context.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\auth\\middleware\\test_bearer_auth.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\test_elicitation.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\test_func_metadata.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\test_integration.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\test_parameter_descriptions.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\test_server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool",
+                "Rule matched: @tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\test_title.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\test_tool_manager.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\auth\\test_auth_integration.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\prompts\\test_base.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\prompts\\test_manager.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\prompts\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\resources\\test_file_resources.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\resources\\test_function_resources.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\resources\\test_resources.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\resources\\test_resource_manager.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\resources\\test_resource_template.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\resources\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\servers\\test_file_server.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\fastmcp\\servers\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\lowlevel\\test_func_inspection.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\lowlevel\\test_server_listing.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\lowlevel\\test_server_pagination.py",
+            "confidence": 0.8,
+            "evidence": [
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\server\\lowlevel\\__init__.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_auth.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_auth_utils.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_httpx_utils.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_memory.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_progress_notifications.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_session.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_sse.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_streamable_http.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_win32_utils.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool"
+            ]
+        },
+        {
+            "file": "tests\\shared\\test_ws.py",
+            "confidence": 0.8,
+            "evidence": [
+                "ML classified: is_tool",
+                "Rule matched: class",
+                "Rule matched: tool"
+            ]
+        }
+    ],
+    "schemas": []
+}

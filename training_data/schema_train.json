@@ -1,0 +1,7 @@
+[
+  {"json": "{\"name\":\"test\",\"value\":123}", "label": "schema"},
+  {"json": "{\"id\":1,\"items\":[]}", "label": "schema"},
+  {"json": "{\"tool\":\"example\",\"args\":{}}", "label": "schema"},
+  {"json": "print('hello')", "label": "not_schema"},
+  {"json": "let x = 5;", "label": "not_schema"}
+]

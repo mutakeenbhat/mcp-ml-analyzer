@@ -1,0 +1,21 @@
+json_snippet,label
+"{""type"":""object"",""properties"":{""msg"":{""type"":""string""}}}",schema
+"{""name"":""weather"",""input"":{""type"":""object""}}",schema
+"{""items"":{""type"":""number""}}",schema
+"{""required"":[""id"",""name""]}",schema
+"{""enum"":[""low"",""medium"",""high""]}",schema
+"{""description"":""User profile schema""}",schema
+"{""properties"":{""a"":{""type"":""integer""}}}",schema
+"{""oneOf"":[{""type"":""string""},{""type"":""number""}]}",schema
+"{""tool"":{""name"":""search"",""input"":{""type"":""string""}}}",schema
+"{""mcp"":{""schema"":""1.0"",""tools"":[]}}",schema
+"print('hello')",not_schema
+"def foo(): return 3",not_schema
+"const x = {a:1,b:2}",not_schema
+"socket.on('message')",not_schema
+"{invalid json:::}",not_schema
+"while(true){console.log('loop')}",not_schema
+"function test(){return 0}",not_schema
+"// plain comment",not_schema
+"import json",not_schema
+"Error: missing field",not_schema
