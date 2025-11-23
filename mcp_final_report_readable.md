@@ -47,19 +47,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "cli",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -103,19 +94,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -213,22 +195,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "name_shrimp",
-    "arguments": {
-      "tank": {},
-      "extra_names": []
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -276,19 +246,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "desktop",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -348,22 +309,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "sum",
-    "arguments": {
-      "a": 0,
-      "b": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -418,21 +367,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "echo",
-    "arguments": {
-      "text": "<text_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -485,21 +423,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "echo_tool",
-    "arguments": {
-      "text": "<text_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -541,19 +468,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "echo_resource",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -606,21 +524,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "echo_template",
-    "arguments": {
-      "text": "<text_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -673,21 +580,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "echo_prompt",
-    "arguments": {
-      "text": "<text_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -740,21 +636,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "demo_tool",
-    "arguments": {
-      "message": "<message_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -796,19 +681,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "readme_resource",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -861,21 +737,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "prompt_with_icon",
-    "arguments": {
-      "text": "<text_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -928,21 +793,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "multi_icon_tool",
-    "arguments": {
-      "action": "<action_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1014,22 +868,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "cosine_similarity",
-    "arguments": {
-      "a": [],
-      "b": []
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1091,23 +933,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "greet_user",
-    "arguments": {
-      "name": "<name_str>",
-      "title": "<title_str>",
-      "times": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1167,22 +996,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "sum",
-    "arguments": {
-      "a": 0,
-      "b": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1235,21 +1052,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_greeting",
-    "arguments": {
-      "name": "<name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1293,19 +1099,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "take_screenshot",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1358,21 +1155,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "echo",
-    "arguments": {
-      "text": "<text_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1425,21 +1211,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "text_me",
-    "arguments": {
-      "text_content": "<text_content_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1495,22 +1270,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "hello_unicode",
-    "arguments": {
-      "name": "<name_str>",
-      "greeting": "<greeting_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1558,19 +1321,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "list_emoji_categories",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1612,19 +1366,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "multilingual_hello",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1735,21 +1480,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_weather",
-    "arguments": {
-      "city": "<city_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1834,21 +1568,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_weather_summary",
-    "arguments": {
-      "city": "<city_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -1915,21 +1638,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_weather_metrics",
-    "arguments": {
-      "cities": []
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -2044,21 +1756,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_weather_alerts",
-    "arguments": {
-      "region": "<region_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -2117,22 +1818,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_temperature",
-    "arguments": {
-      "city": "<city_str>",
-      "unit": "<unit_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -2303,22 +1992,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_weather_stats",
-    "arguments": {
-      "city": "<city_str>",
-      "days": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -2360,19 +2037,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_simple_text",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -2516,19 +2184,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_image_content",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -2672,19 +2331,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_audio_content",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -2866,19 +2516,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_embedded_resource",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3100,19 +2741,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_multiple_content_types",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3154,19 +2786,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_error_handling",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3208,19 +2831,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "static_text_resource",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3264,19 +2878,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "static_binary_resource",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3329,21 +2934,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "template_resource",
-    "arguments": {
-      "id": "<id_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3385,19 +2979,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "watched_resource",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3469,19 +3054,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_simple_prompt",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3571,22 +3147,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_prompt_with_arguments",
-    "arguments": {
-      "arg1": "<arg1_str>",
-      "arg2": "<arg2_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3669,21 +3233,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_prompt_with_embedded_resource",
-    "arguments": {
-      "resourceUri": "<resourceUri_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3755,19 +3308,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_prompt_with_image",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3827,22 +3371,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "log_level": "<log_level_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -3978,22 +3510,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_authorization_server",
-    "arguments": {
-      "server_settings": {},
-      "auth_settings": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4046,21 +3566,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4196,22 +3705,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_simple_mcp_server",
-    "arguments": {
-      "server_settings": {},
-      "auth_settings": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4279,22 +3776,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "transport": "<transport_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4417,21 +3902,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_resource_server",
-    "arguments": {
-      "settings": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4513,24 +3987,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "auth_server": "<auth_server_str>",
-      "transport": "<transport_str>",
-      "oauth_strict": false
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4590,22 +4050,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "transport": "<transport_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4673,22 +4121,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_messages",
-    "arguments": {
-      "context": {},
-      "topic": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4748,22 +4184,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "transport": "<transport_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4823,22 +4247,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "transport": "<transport_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4905,23 +4317,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "log_level": "<log_level_str>",
-      "json_response": false
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -4988,23 +4387,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "log_level": "<log_level_str>",
-      "json_response": false
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5064,22 +4450,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {
-      "port": 0,
-      "transport": "<transport_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5123,19 +4497,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5179,19 +4544,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5235,19 +4591,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5291,19 +4638,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5356,21 +4694,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "review_code",
-    "arguments": {
-      "code": "<code_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5431,21 +4758,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "debug_error",
-    "arguments": {
-      "error": "<error_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5498,21 +4814,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "read_document",
-    "arguments": {
-      "name": "<name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5554,19 +4859,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_settings",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5626,22 +4922,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "sum",
-    "arguments": {
-      "a": 0,
-      "b": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5700,22 +4984,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_weather",
-    "arguments": {
-      "city": "<city_str>",
-      "unit": "<unit_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5775,22 +5047,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "github_repo",
-    "arguments": {
-      "owner": "<owner_str>",
-      "repo": "<repo_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5850,22 +5110,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "review_code",
-    "arguments": {
-      "language": "<language_str>",
-      "code": "<code_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -5955,19 +5203,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "advanced_tool",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6011,19 +5250,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "validated_tool",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6113,19 +5343,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "empty_result_tool",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6175,21 +5396,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "hello",
-    "arguments": {
-      "name": "<name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6233,19 +5443,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6305,22 +5506,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "add",
-    "arguments": {
-      "a": 0,
-      "b": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6373,21 +5562,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_greeting",
-    "arguments": {
-      "name": "<name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6446,22 +5624,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "greet_user",
-    "arguments": {
-      "name": "<name_str>",
-      "style": "<style_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6516,21 +5682,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_thumbnail",
-    "arguments": {
-      "image_path": "<image_path_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6585,21 +5740,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "query_db",
-    "arguments": {
-      "ctx": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6649,21 +5793,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "greet",
-    "arguments": {
-      "name": "<name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6705,19 +5838,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "hello",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6759,19 +5883,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "domain_info",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6813,19 +5928,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "api_status",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6878,21 +5984,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "send_message",
-    "arguments": {
-      "message": "<message_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -6945,21 +6040,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "process_data",
-    "arguments": {
-      "data": "<data_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7012,21 +6096,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "echo",
-    "arguments": {
-      "message": "<message_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7079,21 +6152,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "add_two",
-    "arguments": {
-      "n": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7204,21 +6266,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_weather",
-    "arguments": {
-      "city": "<city_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7303,21 +6354,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_location",
-    "arguments": {
-      "address": "<address_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7378,21 +6418,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_statistics",
-    "arguments": {
-      "data_type": "<data_type_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7479,21 +6508,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_user",
-    "arguments": {
-      "user_id": "<user_id_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7537,19 +6555,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_config",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7597,19 +6606,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "list_cities",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7662,21 +6662,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_temperature",
-    "arguments": {
-      "city": "<city_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7720,19 +6709,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_server",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7785,21 +6765,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_github_url",
-    "arguments": {
-      "file_path": "<file_path_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7860,22 +6829,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "process_snippet_block",
-    "arguments": {
-      "match": {},
-      "check_mode": false
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7933,22 +6890,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "update_readme_snippets",
-    "arguments": {
-      "readme_path": {},
-      "check_mode": false
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -7992,19 +6937,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "main",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8048,19 +6984,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_claude_config_path",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8102,19 +7029,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_uv_path",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8174,22 +7092,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "update_claude_config",
-    "arguments": {
-      "file_spec": "<file_spec_str>",
-      "server_name": "<server_name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8233,19 +7139,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_get_npx_command",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8300,21 +7197,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_parse_env_var",
-    "arguments": {
-      "env_var": "<env_var_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8393,23 +7279,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_build_uv_command",
-    "arguments": {
-      "file_spec": "<file_spec_str>",
-      "with_editable": {},
-      "with_packages": []
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8464,21 +7337,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_parse_file_path",
-    "arguments": {
-      "file_spec": "<file_spec_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8543,22 +7405,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_import_server",
-    "arguments": {
-      "file": {},
-      "server_object": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8602,19 +7452,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "version",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8682,23 +7523,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "dev",
-    "arguments": {
-      "file_spec": "<file_spec_str>",
-      "with_editable": {},
-      "with_packages": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8758,22 +7586,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run",
-    "arguments": {
-      "file_spec": "<file_spec_str>",
-      "transport": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8865,26 +7681,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "install",
-    "arguments": {
-      "file_spec": "<file_spec_str>",
-      "server_name": {},
-      "with_editable": {},
-      "with_packages": {},
-      "env_vars": {},
-      "env_file": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8937,21 +7737,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "remove_request_params",
-    "arguments": {
-      "url": "<url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -8995,19 +7784,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "cli",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -9071,22 +7851,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "extract_field_from_www_auth",
-    "arguments": {
-      "response": {},
-      "field_name": "<field_name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -9143,21 +7911,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "extract_scope_from_www_auth",
-    "arguments": {
-      "response": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -9214,21 +7971,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "extract_resource_metadata_from_www_auth",
-    "arguments": {
-      "response": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -9296,22 +8042,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "build_protected_resource_metadata_discovery_urls",
-    "arguments": {
-      "www_auth_url": {},
-      "server_url": "<server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -9783,23 +8517,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_client_metadata_scopes",
-    "arguments": {
-      "www_authenticate_scope": {},
-      "protected_resource_metadata": "<protected_resource_metadata_str>",
-      "authorization_server_metadata": "<authorization_server_metadata_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -9867,22 +8588,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "build_oauth_authorization_server_metadata_discovery_urls",
-    "arguments": {
-      "auth_server_url": {},
-      "server_url": "<server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -9963,21 +8672,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_oauth_metadata_request",
-    "arguments": {
-      "url": "<url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -10514,23 +9212,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_client_registration_request",
-    "arguments": {
-      "auth_server_metadata": "<auth_server_metadata_str>",
-      "client_metadata": {},
-      "auth_base_url": "<auth_base_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -10580,19 +9265,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_default_environment",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -10645,21 +9321,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_get_executable_command",
-    "arguments": {
-      "command": "<command_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -10712,21 +9377,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_windows_executable_command",
-    "arguments": {
-      "command": "<command_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -10770,19 +9424,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_create_job_object",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -10848,22 +9493,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_maybe_assign_process_to_job",
-    "arguments": {
-      "process": {},
-      "job": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -10920,21 +9553,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_validate_elicitation_schema",
-    "arguments": {
-      "schema": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -10989,21 +9611,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_is_primitive_field",
-    "arguments": {
-      "field_info": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -11058,21 +9669,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "stringify_pydantic_error",
-    "arguments": {
-      "validation_error": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -11125,21 +9725,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "construct_redirect_uri",
-    "arguments": {
-      "redirect_uri_base": "<redirect_uri_base_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -11196,21 +9785,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "validate_issuer_url",
-    "arguments": {
-      "url": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -11280,22 +9858,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "cors_middleware",
-    "arguments": {
-      "handler": {},
-      "allow_methods": []
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -11455,25 +10021,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_auth_routes",
-    "arguments": {
-      "provider": {},
-      "issuer_url": {},
-      "service_documentation_url": {},
-      "client_registration_options": "<client_registration_options_str>",
-      "revocation_options": "<revocation_options_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -11897,24 +10448,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "build_metadata",
-    "arguments": {
-      "issuer_url": {},
-      "service_documentation_url": {},
-      "client_registration_options": {},
-      "revocation_options": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -11971,21 +10508,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "build_resource_metadata_url",
-    "arguments": {
-      "resource_server_url": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12091,25 +10617,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_protected_resource_routes",
-    "arguments": {
-      "resource_url": {},
-      "authorization_servers": [],
-      "scopes_supported": [],
-      "resource_name": {},
-      "resource_documentation": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12173,22 +10684,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "best_effort_extract_string",
-    "arguments": {
-      "key": "<key_str>",
-      "params": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12292,19 +10791,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_access_token",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12370,22 +10860,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "lifespan_wrapper",
-    "arguments": {
-      "app": {},
-      "lifespan": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12440,21 +10918,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_is_async_callable",
-    "arguments": {
-      "obj": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12511,21 +10978,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "find_context_parameter",
-    "arguments": {
-      "fn": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12621,24 +11077,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "inject_context",
-    "arguments": {
-      "fn": {},
-      "kwargs": {},
-      "context": {},
-      "context_kwarg": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12761,23 +11203,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "func_metadata",
-    "arguments": {
-      "func": {},
-      "skip_names": {},
-      "structured_output": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12850,23 +11279,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_try_create_model_and_schema",
-    "arguments": {
-      "original_annotation": {},
-      "type_expr": {},
-      "func_name": "<func_name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -12929,21 +11345,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_create_model_from_class",
-    "arguments": {
-      "type_hints": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13000,21 +11405,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_create_model_from_typeddict",
-    "arguments": {
-      "td_type": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13078,22 +11472,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_create_wrapped_model",
-    "arguments": {
-      "func_name": "<func_name_str>",
-      "annotation": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13157,22 +11539,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_create_dict_model",
-    "arguments": {
-      "func_name": "<func_name_str>",
-      "dict_annotation": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13229,21 +11599,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "_convert_to_content",
-    "arguments": {
-      "result": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13298,21 +11657,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_logger",
-    "arguments": {
-      "name": "<name_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13378,21 +11726,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "configure_logging",
-    "arguments": {
-      "level": "<level_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13458,22 +11795,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_call_wrapper",
-    "arguments": {
-      "func": {},
-      "request_type": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13528,21 +11853,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "resource_url_from_server_url",
-    "arguments": {
-      "url": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13602,22 +11916,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "check_resource_allowed",
-    "arguments": {
-      "requested_resource": "<requested_resource_str>",
-      "configured_resource": "<configured_resource_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -13674,21 +11976,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "calculate_token_expiry",
-    "arguments": {
-      "expires_in": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14093,21 +12384,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "get_display_name",
-    "arguments": {
-      "obj": "<obj_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14172,22 +12452,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "progress",
-    "arguments": {
-      "ctx": {},
-      "total": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14263,23 +12531,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_mcp_http_client",
-    "arguments": {
-      "headers": {},
-      "timeout": {},
-      "auth": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14323,19 +12578,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "anyio_backend",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14401,22 +12647,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_docs_examples",
-    "arguments": {
-      "example": {},
-      "eval_example": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14477,22 +12711,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "wait_for_server",
-    "arguments": {
-      "port": 0,
-      "timeout": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14536,19 +12758,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_tool_preserves_json_schema_2020_12_fields",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14592,19 +12805,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_list_tools_result_preserves_json_schema_2020_12_fields",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14677,23 +12881,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_parse_file_path_accepts_valid_specs",
-    "arguments": {
-      "tmp_path": {},
-      "spec": "<spec_str>",
-      "expected_obj": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14750,21 +12941,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_parse_file_path_missing",
-    "arguments": {
-      "tmp_path": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14821,21 +13001,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_parse_file_exit_on_dir",
-    "arguments": {
-      "tmp_path": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14879,19 +13048,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_build_uv_command_minimal",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -14935,19 +13095,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_build_uv_command_adds_editable_and_packages",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15004,21 +13155,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_get_npx_unix_like",
-    "arguments": {
-      "monkeypatch": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15075,21 +13215,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_get_npx_windows",
-    "arguments": {
-      "monkeypatch": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15146,21 +13275,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_get_npx_returns_none_when_npx_missing",
-    "arguments": {
-      "monkeypatch": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15204,19 +13322,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "stream_spy",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15260,19 +13369,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mock_storage",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15316,19 +13416,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "client_metadata",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15372,19 +13463,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "valid_tokens",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15644,22 +13726,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "oauth_provider",
-    "arguments": {
-      "client_metadata": {},
-      "mock_storage": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15703,19 +13773,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "prm_metadata_response",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15759,19 +13820,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "prm_metadata_without_scopes_response",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15815,19 +13867,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "init_response_with_www_auth_scope",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15871,19 +13914,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "init_response_without_www_auth_scope",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -15973,26 +14007,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_build_metadata",
-    "arguments": {
-      "issuer_url": "<issuer_url_str>",
-      "service_documentation_url": "<service_documentation_url_str>",
-      "authorization_endpoint": "<authorization_endpoint_str>",
-      "token_endpoint": "<token_endpoint_str>",
-      "registration_endpoint": "<registration_endpoint_str>",
-      "revocation_endpoint": "<revocation_endpoint_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16049,21 +14067,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "temp_config_dir",
-    "arguments": {
-      "tmp_path": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16120,21 +14127,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mock_config_path",
-    "arguments": {
-      "temp_config_dir": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16191,21 +14187,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_command_execution",
-    "arguments": {
-      "mock_config_path": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16262,21 +14247,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_absolute_uv_path",
-    "arguments": {
-      "mock_config_path": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16331,21 +14305,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_unicode_server",
-    "arguments": {
-      "port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16387,19 +14350,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "unicode_server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16454,21 +14408,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "running_unicode_server",
-    "arguments": {
-      "unicode_server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16512,19 +14455,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_non_sdk_server_app",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16579,21 +14513,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_non_sdk_server",
-    "arguments": {
-      "port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16635,19 +14558,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "non_sdk_server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16702,21 +14616,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "non_sdk_server",
-    "arguments": {
-      "non_sdk_server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16760,19 +14663,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "bypass_server_output_validation",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16816,19 +14710,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mock_exit_stack",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16872,19 +14757,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mock_storage",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -16928,19 +14804,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "client_metadata",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17200,22 +15067,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "rfc7523_oauth_provider",
-    "arguments": {
-      "client_metadata": {},
-      "mock_storage": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17270,21 +15125,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "query_db",
-    "arguments": {
-      "ctx": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17328,19 +15172,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_add_tool",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17384,19 +15219,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "temp_file",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17438,19 +15264,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17503,21 +15320,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_url",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17620,22 +15426,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_server_with_settings",
-    "arguments": {
-      "port": 0,
-      "security_settings": "<security_settings_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17738,22 +15532,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "start_server_process",
-    "arguments": {
-      "port": 0,
-      "security_settings": "<security_settings_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17795,19 +15577,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17860,21 +15633,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_url",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -17977,22 +15739,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_server_with_settings",
-    "arguments": {
-      "port": 0,
-      "security_settings": "<security_settings_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18095,22 +15845,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "start_server_process",
-    "arguments": {
-      "port": 0,
-      "security_settings": "<security_settings_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18154,19 +15892,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "oauth_provider",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18223,21 +15952,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "app",
-    "arguments": {
-      "oauth_provider": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18294,21 +16012,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "client",
-    "arguments": {
-      "app": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18352,19 +16059,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "pkce_challenge",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18408,19 +16106,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_app",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18464,19 +16153,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "root_resource_app",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18576,19 +16256,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "valid_access_token",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18717,23 +16388,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "add_token_to_provider",
-    "arguments": {
-      "provider": {},
-      "token": "<token_str>",
-      "access_token": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18777,19 +16435,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mock_oauth_provider",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -18889,19 +16538,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "valid_access_token",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19001,19 +16641,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "expired_access_token",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19113,19 +16744,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "no_expiry_access_token",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19182,21 +16804,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_ask_user_tool",
-    "arguments": {
-      "mcp": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19446,40 +17057,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "complex_arguments_fn",
-    "arguments": {
-      "an_int": 0,
-      "must_be_none": {},
-      "must_be_none_dumb_annotation": {},
-      "list_of_ints": [],
-      "list_str_or_str": [],
-      "an_int_annotated_with_field": 0,
-      "an_int_annotated_with_field_and_others": {},
-      "an_int_annotated_with_junk": {},
-      "field_with_default_via_field_annotation_before_nondefault_arg": 0,
-      "unannotated": "<unannotated_str>",
-      "my_model_a": {},
-      "my_model_a_forward_ref": {},
-      "my_model_b": {},
-      "an_int_annotated_with_field_default": 0,
-      "unannotated_with_default": "<unannotated_with_default_str>",
-      "my_model_a_with_default": {},
-      "an_int_with_default": 0,
-      "must_be_none_with_default": {},
-      "an_int_with_equals_field": 0,
-      "int_annotated_with_default": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19523,19 +17104,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_str_vs_list_str",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19579,19 +17151,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_skip_names",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19635,19 +17198,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_dict_str_types",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19691,19 +17245,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_complex_function_json_schema",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19747,19 +17292,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_str_vs_int",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19803,19 +17339,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_str_annotation_preserves_json_string",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19859,19 +17386,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_requires_return_annotation",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19915,19 +17433,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_basemodel",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -19971,19 +17480,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_primitives",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20027,19 +17527,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_generic_types",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20083,19 +17574,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_dataclass",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20139,19 +17621,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_typeddict",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20195,19 +17668,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_ordinary_class",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20251,19 +17715,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_unstructured_output_unannotated_class",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20307,19 +17762,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_tool_call_result_is_unstructured_and_not_converted",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20363,19 +17809,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_tool_call_result_annotated_is_structured_and_converted",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20419,19 +17856,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_tool_call_result_annotated_is_structured_and_invalid",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20475,19 +17903,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_tool_call_result_in_optional_is_rejected",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20531,19 +17950,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_tool_call_result_in_union_is_rejected",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20587,19 +17997,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_tool_call_result_in_pipe_union_is_rejected",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20643,19 +18044,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_with_field_descriptions",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20699,19 +18091,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_nested_models",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20755,19 +18138,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_unserializable_type_error",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20811,19 +18185,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_structured_output_aliases",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20867,19 +18232,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_basemodel_reserved_names",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20923,19 +18279,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_basemodel_reserved_names_with_json_preparsing",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -20979,19 +18326,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_disallowed_type_qualifier",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21035,19 +18373,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_preserves_pydantic_metadata",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21089,19 +18418,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21154,21 +18474,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_url",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21237,23 +18546,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_server_with_transport",
-    "arguments": {
-      "module_name": "<module_name_str>",
-      "port": 0,
-      "transport": "<transport_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21317,22 +18613,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_transport",
-    "arguments": {
-      "request": {},
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21394,22 +18678,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_client_for_transport",
-    "arguments": {
-      "transport": "<transport_str>",
-      "server_url": "<server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21466,21 +18738,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "unpack_streams",
-    "arguments": {
-      "client_streams": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21540,22 +18801,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "tool_fn",
-    "arguments": {
-      "x": 0,
-      "y": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21599,19 +18848,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "error_tool_fn",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21666,21 +18906,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "image_tool_fn",
-    "arguments": {
-      "path": "<path_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21735,21 +18964,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "audio_tool_fn",
-    "arguments": {
-      "path": "<path_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21799,19 +19017,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mixed_content_tool_fn",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21855,19 +19064,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_streamable_http_no_redirect",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21911,19 +19111,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mock_oauth_provider",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -21980,21 +19171,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "auth_app",
-    "arguments": {
-      "mock_oauth_provider": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22038,19 +19218,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "pkce_challenge",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22094,19 +19265,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "temp_file",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22150,19 +19312,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "temp_file",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22219,21 +19372,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_dir",
-    "arguments": {
-      "tmp_path_factory": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22277,19 +19419,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mcp",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22355,22 +19488,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "resources",
-    "arguments": {
-      "mcp": {},
-      "test_dir": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22436,22 +19557,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "tools",
-    "arguments": {
-      "mcp": {},
-      "test_dir": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22495,19 +19604,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_default_settings",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22551,19 +19651,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_custom_parameters",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22607,19 +19698,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mcp_server",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22663,19 +19745,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mcp_server",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22717,19 +19790,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22782,21 +19846,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_url",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22840,19 +19893,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "make_server_app",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22907,21 +19951,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_server",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -22976,21 +20009,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23045,21 +20067,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_mounted_server",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23114,21 +20125,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "mounted_server",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23183,21 +20183,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_context_server",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23252,21 +20241,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "context_server",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23310,19 +20288,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_sse_message_id_coercion",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23386,22 +20355,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_sse_server_transport_endpoint_validation",
-    "arguments": {
-      "endpoint": "<endpoint_str>",
-      "expected_result": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23456,21 +20413,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "extract_protocol_version_from_sse",
-    "arguments": {
-      "response": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23530,22 +20476,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "create_app",
-    "arguments": {
-      "is_json_response_enabled": false,
-      "event_store": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23614,23 +20548,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_server",
-    "arguments": {
-      "port": 0,
-      "is_json_response_enabled": false,
-      "event_store": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23672,19 +20593,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "basic_server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23726,19 +20638,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "json_server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23793,21 +20696,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "basic_server",
-    "arguments": {
-      "basic_server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23851,19 +20743,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "event_store",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23905,19 +20788,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "event_server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -23981,22 +20855,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "event_server",
-    "arguments": {
-      "event_server_port": 0,
-      "event_store": {}
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24051,21 +20913,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "json_response_server",
-    "arguments": {
-      "json_server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24118,21 +20969,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "basic_server_url",
-    "arguments": {
-      "basic_server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24185,21 +21025,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "json_server_url",
-    "arguments": {
-      "json_server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24263,22 +21092,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_accept_header_validation",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24342,22 +21159,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_content_type_validation",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24421,22 +21226,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_json_validation",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24500,22 +21293,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_json_parsing",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24579,22 +21360,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_method_not_allowed",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24658,22 +21427,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_session_validation",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24717,19 +21474,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_session_id_pattern",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24773,19 +21521,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_streamable_http_transport_init_validation",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24849,22 +21588,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_session_termination",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -24928,22 +21655,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_response",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25007,22 +21722,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_json_response",
-    "arguments": {
-      "json_response_server": {},
-      "json_server_url": "<json_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25086,22 +21789,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_json_response_accept_json_only",
-    "arguments": {
-      "json_response_server": {},
-      "json_server_url": "<json_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25165,22 +21856,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_json_response_missing_accept_header",
-    "arguments": {
-      "json_response_server": {},
-      "json_server_url": "<json_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25244,22 +21923,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_json_response_incorrect_accept_header",
-    "arguments": {
-      "json_response_server": {},
-      "json_server_url": "<json_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25323,22 +21990,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_get_sse_stream",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25402,22 +22057,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_get_validation",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25472,21 +22115,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_context_aware_server",
-    "arguments": {
-      "port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25541,21 +22173,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "context_aware_server",
-    "arguments": {
-      "basic_server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25619,22 +22240,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_server_validates_protocol_version_header",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25698,22 +22307,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "test_server_backwards_compatibility_no_protocol_version",
-    "arguments": {
-      "basic_server": {},
-      "basic_server_url": "<basic_server_url_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25766,21 +22363,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "escape_path_for_python",
-    "arguments": {
-      "path": "<path_str>"
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25822,19 +22408,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_port",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25887,21 +22464,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server_url",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -25945,19 +22511,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "make_server_app",
-    "arguments": {}
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -26012,21 +22569,10 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "run_server",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
@@ -26081,32 +22627,16 @@
 
 #### Run Template
 ```json
-{
-  "jsonrpc": "2.0",
-  "method": "tools.call",
-  "params": {
-    "name": "server",
-    "arguments": {
-      "server_port": 0
-    }
-  }
-}
+{}
 ```
 
 #### Evidence Summary (Short)
-- missing_file — ``
-- syscall_summary — ``
 
 ---
 
 ## Evidence Pack (Metadata)
 
 ```json
-{
-  "generated_by": "schema_extractor_v4 (evidence adder)",
-  "notes": "Each tool includes 'evidence' list with function snippet, syscall lines, and imports when available.",
-  "repo_scanned": "/mnt/data/python-sdk_extracted",
-  "tool_count": 325
-}
+{}
 ```
 
