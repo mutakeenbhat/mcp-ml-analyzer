@@ -1,0 +1,104 @@
+{
+  "language": "typescript",
+  "transport": {
+    "type": "http",
+    "confidence": 0.3,
+    "evidence": []
+  },
+  "tools": [
+    {
+      "name": "createErrorResponse",
+      "description": "Exported function 'createErrorResponse' from quran-mcp-server-main\\src\\utils\\error-handler.ts",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "object"
+          },
+          "toolName?": {
+            "type": "string"
+          }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {}
+      },
+      "payload_shape": {
+        "request": {
+          "type": "object",
+          "properties": {
+            "error": {
+              "type": "object"
+            },
+            "toolName?": {
+              "type": "string"
+            }
+          }
+        },
+        "response": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      "predicted_code_snippet": "export function createErrorResponse(error: unknown, toolName?: string) { ... }",
+      "explanation": "Detected as exported function in quran-mcp-server-main\\src\\utils\\error-handler.ts",
+      "syscalls": {
+        "filesystem": [],
+        "network": [],
+        "subprocess": [],
+        "env": []
+      },
+      "confidence": 0.6
+    },
+    {
+      "name": "verboseLog",
+      "description": "Exported function 'verboseLog' from quran-mcp-server-main\\src\\utils\\logger.ts",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "object"
+          },
+          "data": {
+            "type": "object"
+          }
+        }
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {}
+      },
+      "payload_shape": {
+        "request": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "object"
+            },
+            "data": {
+              "type": "object"
+            }
+          }
+        },
+        "response": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      "predicted_code_snippet": "export function verboseLog(type: 'request' | 'response' | 'error', data: any) { ... }",
+      "explanation": "Detected as exported function in quran-mcp-server-main\\src\\utils\\logger.ts",
+      "syscalls": {
+        "filesystem": [],
+        "network": [],
+        "subprocess": [],
+        "env": []
+      },
+      "confidence": 0.6
+    }
+  ],
+  "run_template": {
+    "command": "node server.js",
+    "confidence": 0.3
+  }
+}
