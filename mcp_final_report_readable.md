@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+# MCP Repository Analyzer — Final Report
+
+## Transport Inference
+
+- **Type:** http
+- **Confidence:** 0.3
+
+## Tools Overview (0 tools)
+
+## Evidence Pack (Metadata)
+
+```json
+{}
+```
+
+=======
 # MCP Repository Analyzer — Final Report
 
 ## Transport Inference
@@ -22640,3 +22657,4 @@
 {}
 ```
 
+>>>>>>> cf7ae0a987a9d04a3898ae77f6d6d3b763d6de30

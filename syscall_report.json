@@ -1,3 +1,505 @@
+<<<<<<< HEAD
+[
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\examples\\clients\\simple-auth-client\\mcp_simple_auth_client\\main.py",
+    "filesystem": [
+      "webbrowser.open"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [
+      "os.getenv"
+    ],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\examples\\clients\\simple-chatbot\\mcp_simple_chatbot\\main.py",
+    "filesystem": [
+      "open"
+    ],
+    "network": [
+      "httpx.Client",
+      "client.post"
+    ],
+    "subprocess": [],
+    "env": [
+      "os.getenv"
+    ],
+    "severity": "medium-high"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\examples\\fastmcp\\memory.py",
+    "filesystem": [
+      "PROFILE_DIR.mkdir"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\examples\\fastmcp\\text_me.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Client",
+      "client.post"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\examples\\servers\\simple-auth\\mcp_simple_auth\\token_verifier.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Timeout",
+      "httpx.Limits",
+      "httpx.AsyncClient",
+      "client.post"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\examples\\servers\\simple-tool\\mcp_simple_tool\\server.py",
+    "filesystem": [],
+    "network": [
+      "client.get"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\examples\\snippets\\servers\\images.py",
+    "filesystem": [
+      "PILImage.open"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\scripts\\update_readme_snippets.py",
+    "filesystem": [
+      "file.read_text",
+      "readme_path.read_text",
+      "readme_path.write_text"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\cli\\claude.py",
+    "filesystem": [
+      "config_file.write_text",
+      "config_file.read_text"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\cli\\cli.py",
+    "filesystem": [],
+    "network": [],
+    "subprocess": [
+      "subprocess.run"
+    ],
+    "env": [],
+    "severity": "high"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\client\\sse.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Timeout",
+      "client.post"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\client\\streamable_http.py",
+    "filesystem": [
+      "base_headers.copy"
+    ],
+    "network": [
+      "httpx.Timeout",
+      "client.delete"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium-high"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\client\\auth\\oauth2.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Request"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\client\\auth\\extensions\\client_credentials.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Request"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\os\\win32\\utilities.py",
+    "filesystem": [],
+    "network": [],
+    "subprocess": [
+      "subprocess.Popen"
+    ],
+    "env": [],
+    "severity": "high"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\server\\websocket.py",
+    "filesystem": [],
+    "network": [
+      "websocket.accept",
+      "websocket.iter_text",
+      "websocket.close",
+      "websocket.send_text"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\server\\fastmcp\\resources\\types.py",
+    "filesystem": [],
+    "network": [
+      "httpx.AsyncClient",
+      "client.get"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\server\\fastmcp\\utilities\\func_metadata.py",
+    "filesystem": [
+      "data.copy"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\server\\fastmcp\\utilities\\types.py",
+    "filesystem": [
+      "open"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\src\\mcp\\shared\\_httpx_utils.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Timeout",
+      "httpx.AsyncClient"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\test_helpers.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\cli\\test_utils.py",
+    "filesystem": [
+      "file.write_text",
+      "dir_path.mkdir"
+    ],
+    "network": [],
+    "subprocess": [
+      "subprocess.CompletedProcess",
+      "subprocess.CalledProcessError"
+    ],
+    "env": [],
+    "severity": "high"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\client\\test_auth.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Response",
+      "httpx.Request"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\client\\test_config.py",
+    "filesystem": [
+      "config_dir.mkdir",
+      "config_file.read_text"
+    ],
+    "network": [],
+    "subprocess": [
+      "subprocess.run"
+    ],
+    "env": [],
+    "severity": "high"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\client\\test_http_unicode.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\client\\test_notification_response.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\client\\test_scope_bug_1630.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Request",
+      "httpx.Response"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\client\\test_stdio.py",
+    "filesystem": [
+      "os.unlink"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\client\\auth\\extensions\\test_client_credentials.py",
+    "filesystem": [],
+    "network": [
+      "urllib.parse.unquote_plus"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\issues\\test_malformed_input.py",
+    "filesystem": [],
+    "network": [
+      "malformed_requests.append"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\test_read_resource.py",
+    "filesystem": [
+      "path.unlink"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\test_sse_security.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket",
+      "httpx.AsyncClient",
+      "client.get",
+      "client.post"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\test_streamable_http_security.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket",
+      "httpx.AsyncClient",
+      "client.post",
+      "client.get"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\auth\\test_error_handling.py",
+    "filesystem": [],
+    "network": [
+      "httpx.AsyncClient",
+      "client.post",
+      "client.get"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\auth\\test_protected_resource.py",
+    "filesystem": [],
+    "network": [
+      "httpx.AsyncClient",
+      "httpx.ASGITransport"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\fastmcp\\test_func_metadata.py",
+    "filesystem": [
+      "actual_schema.copy"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\fastmcp\\test_integration.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\fastmcp\\test_server.py",
+    "filesystem": [
+      "text_file.write_text"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\fastmcp\\auth\\test_auth_integration.py",
+    "filesystem": [],
+    "network": [
+      "httpx.AsyncClient",
+      "httpx.ASGITransport"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\fastmcp\\resources\\test_file_resources.py",
+    "filesystem": [
+      "path.unlink"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\server\\fastmcp\\resources\\test_resource_manager.py",
+    "filesystem": [
+      "path.unlink"
+    ],
+    "network": [],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\shared\\test_httpx_utils.py",
+    "filesystem": [],
+    "network": [
+      "httpx.Timeout"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\shared\\test_sse.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket",
+      "httpx.AsyncClient"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\shared\\test_streamable_http.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket",
+      "requests.post",
+      "requests.put",
+      "requests.delete",
+      "requests.get",
+      "httpx.AsyncClient",
+      "httpx.Response"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  },
+  {
+    "file": "C:\\Users\\MUTAKEEN\\AppData\\Local\\Temp\\mcp_git__08_i_tp\\tests\\shared\\test_ws.py",
+    "filesystem": [],
+    "network": [
+      "socket.socket"
+    ],
+    "subprocess": [],
+    "env": [],
+    "severity": "medium"
+  }
+=======
 [
   {
     "file": "C:\\Users\\MUTAKEEN\\OneDrive\\Desktop\\nogap-aimcp\\repos\\python-sdk\\python-sdk\\examples\\clients\\simple-auth-client\\mcp_simple_auth_client\\main.py",
@@ -498,4 +1000,5 @@
     "env": [],
     "severity": "medium"
   }
+>>>>>>> cf7ae0a987a9d04a3898ae77f6d6d3b763d6de30
 ]
